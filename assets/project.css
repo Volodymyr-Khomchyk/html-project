@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    }
+
+.site-header{
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+    font-size: 0.938em;
+    z-index: 5;
+}
+    .hamburger-icon {
+        display: none;
+    }
+    .logo {
+        width: 4.063em;
+        height: 4.063em;
+        margin: 3.125em 2.125em; 
+    }
+    .menu-item {
+        text-transform:capitalize;
+        margin: 0em 2.3em;
+    }
+    .menu-button{
+        background-color: #7AE5FD;
+        border-radius: 2.5em;
+        text-transform: uppercase;
+        padding: 0.938em 0.813em 0.875em;
+        margin: 0em 3.75em 0em 0.625em;
+    }
+    a{
+        color: inherit;
+        text-decoration: none;
+    }
+    .retreat{
+        margin-left: auto
+    }
+
+.first-screen{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: #F1FDFF;
+    display: flex;
+    justify-content: row;
+    align-items:center;
+}
+    .first-screen-wrapper{
+        display: flex;
+        flex-direction: column;
+        max-width: 50%;
+        margin-left: 3%;
+        
+    }
+        .FVU{
+            font-size: 5.5rem;
+            font-weight: 800;
+            color: #9AD2DE;
+            text-transform: uppercase;
+            letter-spacing: -2%;
+            margin-top: 9%;
+        }
+        .holly{
+            font-size: 1.3rem;
+            width: 80%;
+            margin-top: 6%;
+            
+        }
+    .flag{
+        width: 70%;
+        height: 100%;
+        position:absolute;
+        right: 0;
+        
+        z-index: 4;
+        object-fit: cover;
+    }
+    .flag2{
+        display: none;
+        width: 60%;
+        height: 100%;
+        position:absolute;
+        right: 0;
+        bottom: 0;
+        z-index: 4;
+        object-fit: cover;
+    }
+    .zigzag{
+        position:absolute;
+        bottom: -10%;
+        right: 0%;
+        width: 56%;
+        z-index: 3;
+        object-fit: cover;
+    }
+
+.screen2{
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    }
+    .title{
+        font-weight: medium;
+        text-align: start;
+    }
+    .prog-fes{
+        font-size: 35px;
+        text-transform: uppercase;
+        
+    }
+    .three-scenes{
+        margin: 5px;
+    }
+    .all-scenes{
+        text-align: center;
+        font-size: 10px;
+        color: #73A6B1;
+        margin: 10px;
+    }
+    .with-photo1{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        align-items:center;
+        width: 80vw;
+        height: 546px;
+        background: #F1FDFF;
+        margin: 0 auto;
+        border-radius: 10px;
+                  
+    }  
+    .photo1{
+        flex: 10 10 auto;
+        max-width: 50%;
+        max-height: 50%;
+        
+    }  
+    .spis-head{
+        font-size: 1.5rem;
+        text-transform: uppercase;
+    }
+    .head{
+        font-size: 0.5rem;
+        text-transform:capitalize;
+    }
+    
+    .spisok{
+        flex: 10 10 ;
+        max-width: 100%;
+        max-height: 100%;
+       
+    }
+
+@media screen and (max-width: 390px) {
+        .logo {
+            display: none;
+        }
+        .menu-item {
+            display: none;
+        }
+        .menu-button {
+            display: none;
+        }
+    
+        .hamburger-icon {
+            display: block;
+            margin-top: 10px;
+            margin-right: 20px;
+            width: 60px;
+            
+        }
+        .site-header {
+            justify-content: flex-end;
+        }
+        .first-screen {
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+        .first-screen-wrapper {
+            max-width: none;
+        }
+        .FVU {
+            flex-direction: flex-start;
+            font-size: 2.5rem;
+        } 
+    
+        .holly {
+            font-size: 0.8rem;
+            width: 80%;
+        }  
+       
+    
+        .flag{
+            display: none;
+        }
+        .flag2{
+           
+        }
+    
+        .zigzag {
+            display: none;
+        }
+    }
