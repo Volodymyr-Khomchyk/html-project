@@ -7,7 +7,17 @@
             /* font-size: 20px; */
             /* font-size: 30pt; */
             font-size: 30px;
+            line-height: 2em;
+            text-align: justify;
 
+        }
+
+        .button1 {
+            text-transform: uppercase;
+        }
+
+        .button2 {
+            text-transform: lowercase;
         }
 
         #parag3 {
@@ -17,11 +27,27 @@
 
         .red-text {
             color: red;
+            line-height: 45px;
         }
-        h1, h2, h3 {
+
+        h1,
+        h2,
+        h3 {
             font-size: 100px;
         }
-        #heading{
+
+        #heading {
             font-size: 50px;
         }
-    
+        a{
+            text-decoration: wavy underline green;
+        }
+
+        .bc-blue{
+            color: yellow;
+            background-color: blue;
+        }
+
+        .fw-bold{
+            font-weight: bold;
+        }
