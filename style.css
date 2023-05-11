@@ -1,54 +1,17 @@
-        p {
-            /* color: green;  */
-            /* color: rgb(200, 140, 21); */
-            /* color: rgba(100, 150, 27, 0.1); */
-            /* color: #a2f86f; */
-            color: #a2f86f;
-            /* font-size: 20px; */
-            /* font-size: 30pt; */
-            font-size: 30px;
-            line-height: 2em;
-            text-align: justify;
-            font-family: 'Dancing Script', cursive;
+.main-article {
+    font-size: 60px;
+    color: red;
+    border: 16px dotted green;
+}
 
-        }
+.article-heder {}
 
-        .button1 {
-            text-transform: uppercase;
-        }
+.article-content {
+    color: inherit;
+    border: inherit;
+}
 
-        .button2 {
-            text-transform: lowercase;
-        }
-
-        #parag3 {
-            color: blueviolet;
-            font-size: 40px;
-        }
-
-        .red-text {
-            color: red;
-            line-height: 45px;
-        }
-
-        h1,
-        h2,
-        h3 {
-            font-size: 100px;
-        }
-
-        #heading {
-            font-size: 50px;
-        }
-        a{
-            text-decoration: wavy underline green;
-        }
-
-        .bc-blue{
-            color: yellow;
-            background-color: blue;
-        }
-
-        .fw-bold{
-            font-weight: bold;
-        }
+.article-link {
+    text-decoration: none;
+    color: inherit;
+}
