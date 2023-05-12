@@ -1,16 +1,19 @@
-div{
-    width: 100px;
-    height: 100px;
-    border: 4px solid black;
-    text-align: center;
-    font-size: 40px;
-    background-color: bisque;
+.Navigation {
+
 }
-div:hover{
-    width: 50px;
-    height: 50px;
-    border: 2px solid black;
-    text-align: center;
-    font-size: 20px;
-    background-color: rgb(246, 196, 255);
+
+.link-list li {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.page-link {
+    background-color: lightblue;
+    padding: 10px;
+    color: black;
+}
+.page-link:hover {
+    background-color: grey;
+    padding: 10px;
+    color: bisque;
 }
