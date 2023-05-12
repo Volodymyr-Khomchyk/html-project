@@ -12,13 +12,7 @@
     padding: 10px;
     color: black;
 }
-.page-link:hover {
-    background-color: grey;
-    padding: 10px;
-    color: bisque;
-}
 
-.page-link:focus{
-    border: 5px solid palevioletred;
-    background-color: aquamarine;
-} 
+.page-link:active {
+    background-color: orange;
+}
