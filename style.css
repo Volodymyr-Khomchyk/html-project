@@ -1,8 +1,20 @@
 .image {
     box-sizing: border-box;
-    width: 900px;
+    width: 600px;
     /*height: 500px;*/
     border: 8px solid green;
     /* top right bottom left*/
-    padding: 15px 10px 20px 40px;
+    padding: 20px;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    padding: 0;
+    object-position: 0px;
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    width: 50%;
 }
