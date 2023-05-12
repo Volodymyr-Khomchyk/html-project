@@ -1,10 +1,16 @@
-table,
-td {
-    border: 2px solid black;
-    border-collapse: collapse;
+div{
+    width: 100px;
+    height: 100px;
+    border: 4px solid black;
     text-align: center;
+    font-size: 40px;
+    background-color: bisque;
 }
-
-.fon-tab{
-    background-color: rgb(237, 228, 228);
+div:hover{
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(246, 196, 255);
 }
