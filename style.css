@@ -4,3 +4,7 @@ td {
     border-collapse: collapse;
     text-align: center;
 }
+
+.fon-tab{
+    background-color: rgb(237, 228, 228);
+}
