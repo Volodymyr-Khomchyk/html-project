@@ -17,3 +17,8 @@
     padding: 10px;
     color: bisque;
 }
+
+.page-link:focus{
+    border: 5px solid palevioletred;
+    background-color: aquamarine;
+} 
