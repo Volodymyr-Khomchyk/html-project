@@ -1,18 +1,24 @@
-.Navigation {
-
+li:first-child{
+    color: blue;
+}
+li:last-child{
+    color: red;
+}
+li:nth-child(odd){
+    color: green;
+}
+li:nth-child(even){
+    color: orange;
+}
+li:nth-child(5){
+    color: blueviolet;
 }
 
-.link-list li {
-    display: inline-block;
-    margin-top: 30px;
-}
-
-.page-link {
-    background-color: lightblue;
-    padding: 10px;
-    color: black;
-}
-
-.page-link:active {
-    background-color: orange;
+/*li:nth-child(n+4){
+    color: white;
+    background-color: black;
+}*/
+li:nth-child(3n+1){
+    color: white;
+    background-color: black;
 }
