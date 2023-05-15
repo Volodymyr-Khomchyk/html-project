@@ -1,24 +1,5 @@
-li:first-child{
-    color: blue;
-}
-li:last-child{
-    color: red;
-}
-li:nth-child(odd){
-    color: green;
-}
-li:nth-child(even){
-    color: orange;
-}
-li:nth-child(5){
-    color: blueviolet;
-}
-
-/*li:nth-child(n+4){
-    color: white;
-    background-color: black;
-}*/
-li:nth-child(3n+1){
-    color: white;
-    background-color: black;
+.paragraph{
+    position: relative;
+    left: 90px;
+    top: 90px;
 }
