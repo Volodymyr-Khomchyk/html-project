@@ -1,42 +1,39 @@
-.conainer{
-    background-color: lime;
-    height: 800px;
-    margin: 0 auto;
+.nav-list {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
 }
-.wrapper{
-    background-color: dodgerblue;
-    width: 80%;
-    height: 800px;
 
+.list-item {
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    background-color: rgb(255, 128, 0);
+    padding: 20px;
 }
-.inner{
-    position: fixed;
-    text-align: center;
-    font-size: 40px;
-    width: 80px;
-    height: 80px;
-    background-color: green;
-    border: 2px solid black;
-}
-.div1{
-    background-color: yellow;
-    top: 0; 
-    left: 0;
-}
-.div2{
-    background-color: blue;
-    top: 0; 
-    right: 0;
-}
-.div3{
-    background-color:white;
-    bottom: 0; 
-    left: 0;
 
-}
-.div4{
-    background-color: black;
+.link {
+    font-size: 20px;
     color: white;
-    bottom: 0; 
-    right: 0;
+    text-decoration: none;
+    width: 100%;
+}
+
+.sub-nav-list {
+    position: absolute;
+    top: 40px;
+    left: -20px;
+    display: block;
+
+}
+
+.sub-list-item {
+    display: none;
+    list-style-type: none;
+    background-color: rgb(255, 128, 0);
+    padding: 20px;
+}
+
+.list-item:hover .sub-list-item {
+    display: block;
 }
