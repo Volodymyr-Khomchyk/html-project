@@ -11,3 +11,11 @@ p::first-letter{
     color:red;
     font-style: italic;
 }
+p::first-line{
+    background-color: rgba(128, 128, 128, 0.413);
+}
+
+h1::first-line{
+    color: white;
+    background-color: black;
+}
