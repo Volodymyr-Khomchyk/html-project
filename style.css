@@ -19,3 +19,8 @@ h1::first-line{
     color: white;
     background-color: black;
 }
+
+p::selection{
+    color:yellow;
+    background-color: blue;
+}
