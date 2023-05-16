@@ -1,26 +1,55 @@
-p{
+p {
     color: blue;
+    font-size: 30px;
+    border: 1px solid black;
+    position: relative;
 }
-.letter{
+
+.letter {
     font-size: 20px;
     font-style: italic;
     color: red;
 }
-p::first-letter{
+
+p::first-letter {
     font-size: 20px;
-    color:red;
+    color: red;
     font-style: italic;
 }
-p::first-line{
+
+p::first-line {
     background-color: rgba(128, 128, 128, 0.413);
 }
 
-h1::first-line{
+h1::first-line {
     color: white;
     background-color: black;
 }
 
-p::selection{
-    color:yellow;
+p::selection {
+    color: yellow;
     background-color: blue;
+}
+
+p::before {
+    color: red;
+    background-color: green;
+    width: 30px;
+    height: 30px;
+    content: "A";
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+    
+}
+
+p::after {
+    color: rgb(81, 0, 255);
+    background-color: rgb(128, 43, 0);
+    width: 30px;
+    height: 30px;
+    content: "A";
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
 }
