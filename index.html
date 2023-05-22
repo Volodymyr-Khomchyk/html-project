@@ -9,28 +9,48 @@
     <title>Document</title>
 </head>
 <body>
-    <section class="card-conteiner">
-		<h1 class="header">User cards</h1>
-		<article class="card">
-			<img src="./PIC/image016.jpg" alt="User avatar" class="user-img"/>
-			<h2>John Doe</h2>
-			<h3>Fullstack JS develogth</h3>
-			<section class="links">
-				<div>
-					<p>323</p>
-					<span>followers</span>
-				</div>
-				<div>
-					<p>323</p>
-					<span>followers</span>
-				</div>
-				<div>
-					<p>323</p>
-					<span>followers</span>
-				</div>
+	<div class="container">
+    <h1>Travel reservation form</h1>
+	<h3>* denotes mandatory</h3>
+	<form>
+		<label>Full name*: 
+			<input type="text" name="full name" placeholder="First name Last name"/>
+		</label>
+		<br/>
+		<label>Email adress:
+			<input type="text" name="Email adress" placeholder="Email adress"/>
+		</label>
+		<br/>
+		<label>
+			<select name="package">
+				<option value="Goa">Goa</option>
+				<option value="Malibu">Malibu</option>
+			</select>
+		</label>
+		<br/>
+		<label>Arrivel date
+			<input type="date" name="Arrivel date"/>
+		</label>
+		<br/>
+		<label>What would you want to avail:
+			<br/>
+			Boarding <input type="checkbox" name="boarding" value="boarding"> 
+			<br/>
+			Fooding <input type="checkbox" name="fooding" value="fooding">
+			<br/>
+			Sight seeing <input type="checkbox" name="Sight seeing" value="sight-seeing">
+		</label>
+		<br/>
+		<label>Terms and conditions *:
+			<br/>
+			<input type="radio">
+			<input type="radio">
 
-			</section>
-		</article>
-	</section>
+		</label>
+		<br/>
+		<button type="submit"> Complite reservation</button>
+	</form>
+
+	</div>
 </body>
 </html>
